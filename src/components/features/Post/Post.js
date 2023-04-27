@@ -13,7 +13,7 @@ const Post = (props) => {
           <span className="fw-bold">Published: </span>
           <span>{props.publishedDate}</span>
         </div>
-        <p>{props.content}</p>
+        <p>{props.shortDescription}</p>
         <div>
             <Link className="btn btn-primary" to={ `/post/${props.id}` }>
                 Read more
